@@ -1,0 +1,364 @@
+
+/* parte CSS común */
+
+body
+
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.imgb
+
+{
+    text-align: center;
+}
+
+img.a
+
+{
+    width: 100px;
+    height: 90px;
+}
+
+img.b
+
+{
+    width: 150px;
+    height: 140px;
+}
+
+/* parte CSS específica */
+
+/* ------------------- */
+/* Ejemplo 1-1 */
+/* ------------------- */
+
+article.main
+
+/* Aplicación en Ejemplo 1-1 / Ejemplo 1-2/ etc. */
+
+{
+    /* display flex porque va en distintas líneas */
+    display: flex; 
+    /* flex-direction: row; porque va  hacia -->  */
+    flex-direction: row;
+    /* Al hacer la ventana pequeña los elementos bajan de línea, se debe a flex-wrap: wrap; */
+    flex-wrap: wrap;
+}
+
+p.ejemplo1_1
+
+{
+    border: black solid 2px;
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    
+}
+
+
+/* ------------------- */
+/* Ejemplo 1-2 */
+/* ------------------- */
+p.ejemplo1_2
+
+{
+    border: black solid 2px;
+    width: 200px;
+    margin-left: 0%;
+    margin-right: 6%;
+    padding: 5px;
+    
+}
+
+
+
+/* ------------------- */
+/* Ejemplo 1-3 */
+/* ------------------- */
+
+article.main13
+
+{
+    display: flex;
+    flex: initial; 
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /* align-items 
+    establece la forma en que se alinean los elementos
+     en la dirección secundaria
+    center: los elementos se sitúan
+     en el centro de la dirección secundaria */
+
+    align-items: center;
+
+}
+
+
+p.ejemplo1_3
+
+{
+    border: black solid 2px;
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+
+/* ------------------- */
+/* Ejemplo 2-1 */
+/* ------------------- */
+
+article.dospuntouno
+
+{
+    border: black solid 2px;
+    width: 200px;
+    margin: 10px;
+      
+}   
+
+p.parrafodosunotitulo
+
+{
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    background-color: #D3D3D3;
+    margin-top: 0;
+    padding: 5px;
+}
+
+p.parrafodosunocuerpo
+
+{
+    text-align: left;
+    padding: 2px;
+}
+
+
+/* ------------------- */
+/* Ejemplo 2-2 */
+/* ------------------- */
+
+
+/* ------------------- */
+/* Ejemplo 2-3 */
+/* ------------------- */
+
+article.dospuntotres
+
+{
+    border: black solid 2px;
+    width: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+
+      
+}  
+
+p.parrafodostrescuerpo
+
+{
+    margin-top: 1px;
+    margin-right: 1px;
+}
+
+
+/* ------------------- */
+/* Ejemplo 2-4 */
+/* ------------------- */
+
+p.parrafodoscuatrocuerpo
+
+{
+
+
+    border-left: black solid 2px;
+    background-color: #D3D3D3;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5px;
+
+}
+
+/* ------------------- */
+/* Ejemplo 2-5 */
+/* ------------------- */
+
+article.dospuntocinco
+
+{
+    border: black solid 2px;
+    width: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+
+      
+} 
+
+p.parrafodoscincocuerpo
+
+{
+
+    border-left: black solid 2px;
+    background-color: #D3D3D3;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 40px;
+    width: 150px;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+
+}
+
+/* ------------------- */
+/* Ejemplo 3-1 */
+/* ------------------- */
+
+article.trespuntouno
+
+{
+    border: black solid 2px;
+    width: 205px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+p.parrafotresunotitulo
+
+{
+
+    background-color: #D3D3D3;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 2px;
+    font-size: 200%;
+    font-weight: bold;
+
+}
+
+p.parrafotresunocuerpo
+
+{
+
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 4px;
+
+
+}
+
+
+/* ------------------- */
+
+/* Ejemplo 3-2 */
+/* ------------------- */
+
+
+article.trespuntodos
+
+{
+    border: black solid 2px;
+    width: 305px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+p.trespuntodos
+
+{
+    padding-top: 50%;
+}
+
+p.parrafotresdostitulo
+
+{
+
+    background-color: #D3D3D3;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 5px;
+    font-size: 150%;
+    font-weight: bold;
+    border-bottom: black solid 2px;
+    border-left: black solid 2px;
+
+}
+p.parrafotresdoscuerpo
+{
+
+
+    border-left: black solid 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5px;
+    height: 400px;
+
+}
+
+/* ------------------- */
+/* Ejemplo 3-3 */
+/* ------------------- */
+
+
+article.trespuntotres
+
+{
+    display: flex;
+    flex-direction: column;
+    border: black solid 2px;
+    width: 300px;
+    margin: 10px;
+}
+
+p.trespuntotres
+
+{
+    margin-top: 0;
+    margin-left: 0;
+    height: 100px;
+    border-right: black solid 2px;
+    border-bottom: black solid 2px;
+    border-bottom-right-radius: 10px;
+}
+
+
+p.parrafotrestrestitulo
+
+{
+
+    align-self: center;
+
+
+}
+
+p.parrafotrestrescuerpo
+
+{
+    padding: 4px;
+}
+
+div.trespuntotres
+
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #D3D3D3;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 150%;
+    font-weight: bold;
+    height: 100px;
+}
